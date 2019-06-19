@@ -6,7 +6,7 @@ attribute :aws_access_key_id, :kind_of => String, :default => nil
 attribute :aws_secret_access_key, :kind_of => String, :default => nil
 attribute :aws_region, :kind_of => String, :default => nil
 attribute :s3_url, :kind_of => String, :default => nil
-attribute :public_bucket, :kind_of => [TrueClass, FalseClass], :default => false
+attribute :public_bucket, :kind_of => [TrueClass, FalseClass], :default => true
 attribute :token, :kind_of => String, :default => nil
 attribute :owner, :kind_of => [String, NilClass], :default => nil
 attribute :group, :kind_of => [String, NilClass], :default => nil
